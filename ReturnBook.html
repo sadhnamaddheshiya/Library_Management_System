@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Return Book</title>
+    <link rel="stylesheet" href="ReturnBook.css">
+</head>
+<body>
+    <div id="return-book-container">
+        <h2>Return a Book</h2>
+        <form id="return-book-form">
+            <label for="book-id">Book ID:</label>
+            <input type="text" id="book-id" required>
+            
+            <label for="return-date">Return Date:</label>
+            <input type="date" id="return-date" required>
+            
+            <button type="submit">Return Book</button>
+        </form>
+        <div id="fine-info"></div>
+        <a href="UserDashboard.html">Back to Dashboard</a>
+    </div>
+    <script src="ReturnBook.js"></script>
+</body>
+</html>
